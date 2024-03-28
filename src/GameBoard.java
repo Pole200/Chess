@@ -7,7 +7,6 @@ public class GameBoard {
 
     public GameBoard() {
         InitGameBoard();
-        DrawGame();
     }
     public void InitGameBoard(){
         AddPiece(Piece.LeftBishop(true));
@@ -54,5 +53,26 @@ public class GameBoard {
             }
             System.out.println();
         }
+    }
+    public void DrawGame(Point[] posibleMoves){
+        String color;
+        for (int i = 0; i<8; i++) {
+            for (int j = 0; j<8; j++) {
+                if ( i % 2 == j % 2 ) {
+                    color = ConsoleColors.TEXT_BG_WHITE;
+                } else {
+                    color = ConsoleColors.TEXT_BG_BLACK;
+                }
+                if(gameBoard[j][i] != null){
+                    System.out.print(color + " " +gameBoard[j][i].getCharacter() + ConsoleColors.TEXT_RESET);
+                }else {
+                    System.out.print(color + ' ' +' ' + ' ' + ' ' + ConsoleColors.TEXT_RESET);
+                }
+            }
+            System.out.println();
+        }
+    }
+    public Piece[] GetAvaibleMoves(int x,int y){
+        return null;
     }
 }
