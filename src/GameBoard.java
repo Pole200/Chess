@@ -47,9 +47,9 @@ public class GameBoard {
                     color = ConsoleColors.TEXT_BG_BLACK;
                 }
                 if(gameBoard[j][i] != null){
-                    System.out.print(color + gameBoard[j][i].getCharacter() + ConsoleColors.TEXT_RESET);
+                    System.out.print(color + " " +gameBoard[j][i].getCharacter() + ConsoleColors.TEXT_RESET);
                 }else {
-                    System.out.print(color + "  " + ConsoleColors.TEXT_RESET);
+                    System.out.print(color + ' ' +' ' + ' ' + ' ' + ConsoleColors.TEXT_RESET);
                 }
             }
             System.out.println();
