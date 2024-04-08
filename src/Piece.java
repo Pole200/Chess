@@ -54,7 +54,7 @@ public class Piece {
         if (color) {
             return new Piece(new Point(4, 0), "white king", "♔", true);
         } else {
-            return new Piece(new Point(4, 7), "white king", "♚", false);
+            return new Piece(new Point(4, 7), "black king", "♚", false);
         }
     }
 

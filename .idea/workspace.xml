@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbf22f94-3eb9-4276-9171-3074c57254a6" name="Changes" comment="chess">
-      <change afterPath="$PROJECT_DIR$/src/ConsoleColors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Move.java" afterDir="false" />
+    <list default="true" id="dbf22f94-3eb9-4276-9171-3074c57254a6" name="Changes" comment="kill me now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Piece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +47,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -72,7 +70,8 @@
       <workItem from="1711111010161" duration="730000" />
       <workItem from="1711221855808" duration="80000" />
       <workItem from="1711293180964" duration="1335000" />
-      <workItem from="1711369814716" duration="4223000" />
+      <workItem from="1711369814716" duration="4879000" />
+      <workItem from="1712587270716" duration="1621000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -90,26 +89,54 @@
       <option name="project" value="LOCAL" />
       <updated>1711042299413</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="kill me now">
+      <option name="closed" value="true" />
+      <created>1711374079178</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711374079178</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="chess" />
-    <option name="LAST_COMMIT_MESSAGE" value="chess" />
+    <MESSAGE value="kill me now" />
+    <option name="LAST_COMMIT_MESSAGE" value="kill me now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/GameBoard.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="1" />
+          <line>63</line>
+          <properties class="GameBoard" method="translateBoardToFEN">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
