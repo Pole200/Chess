@@ -45,6 +45,7 @@ public class GameBoard {
     public void DrawGame() {
         String color;
         for (int i = 0; i < 8; i++) {
+            System.out.print(8-i);
             for (int j = 0; j < 8; j++) {
                 if (i % 2 == j % 2) {
                     color = ConsoleColors.TEXT_BG_WHITE;
@@ -59,6 +60,7 @@ public class GameBoard {
             }
             System.out.println();
         }
+        System.out.println(" A B C D E F G H");
     }
 
     public String translateBoardToFEN() {
